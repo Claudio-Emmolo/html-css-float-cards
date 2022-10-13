@@ -57,6 +57,8 @@ section.black-cube{
     background-color: black;
     float: left;
     margin-right: .5rem ;
+
+    box-shadow: 3px 2px 3px #e53170;
 }
 
 section img{
