@@ -1,0 +1,27 @@
+/* ------------RESET------------ */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ------------GENERAL------------ */
+.fredoka-font{
+    font-family: 'Fredoka One', cursive;
+}
+
+.container-site{
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+
+/* ------------HEADER------------ */
+header>h1{
+    color: #e53170;
+}
+
+header>p{
+    margin: 2rem 0;
+}
