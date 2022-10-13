@@ -34,6 +34,7 @@ body{
 /* ------------HEADER------------ */
 header>h1{
     color: #e53170;
+    margin-top: .5rem;
 }
 
 header>p{
@@ -68,6 +69,11 @@ section.black-cube h3{
     text-align: left;
     margin: .5rem .2em;
     font-size: .8rem;
+}
+
+div.info-people-txt{
+    float: left;
+    margin-top: .8rem;
 }
 
 
