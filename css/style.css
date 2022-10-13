@@ -45,11 +45,13 @@ header>p{
 div.container-block{
     color: white;
     text-align: left;
-    width: calc((100% / 3) - .5rem);
+    width: 100%;
+
+    margin-top: 4rem;
 }
 
 section.black-cube{
-    width: 23rem;
+    width: calc((100% / 3) - .5rem);
     height: auto;
     background-color: black;
     float: left;
@@ -65,6 +67,7 @@ section img{
 section.black-cube h3{
     text-align: left;
     margin: .5rem .2em;
+    font-size: .8rem;
 }
 
 
