@@ -17,6 +17,20 @@
 }
 
 
+.fix-flex::after{
+    content: "";
+    display: table;
+	clear: both;
+}
+
+address{
+    color: #6ecbf2;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 /* ------------HEADER------------ */
 header>h1{
     color: #e53170;
@@ -25,3 +39,32 @@ header>h1{
 header>p{
     margin: 2rem 0;
 }
+
+/* ------------MAIN------------ */
+
+div.container-block{
+    color: white;
+    text-align: left;
+    width: calc((100% / 3) - .5rem);
+}
+
+section.black-cube{
+    width: 23rem;
+    height: auto;
+    background-color: black;
+    float: left;
+    margin-right: .5rem ;
+}
+
+section img{
+    height: 7rem;
+    float: left;
+    margin-right: .6rem;
+}
+
+section.black-cube h3{
+    text-align: left;
+    margin: .5rem .2em;
+}
+
+
